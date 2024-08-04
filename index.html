@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="2048.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="register-container">
+            <h2>Register</h2>
+            <form id="register-form">
+                <input type="text" id="username" placeholder="Enter your name" required>
+                <button type="submit">Register</button>
+            </form>
+            <h3>Recorded Players</h3>
+            <ul id="players-list"></ul>
+        </div>
+        <div id="game-container">
+            <div id="game-board">
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+            <div id="max-tile">가장 큰 수: 0</div>
+        </div>
+    </div>
+    <script src="2048.js"></script>
+</body>
+</html>
